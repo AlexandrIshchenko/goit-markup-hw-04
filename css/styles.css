@@ -277,6 +277,14 @@ ul {
 
 .advantage-item {
     flex-basis: 100%;
+    
+}
+
+.svg-advantage {
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    padding: 24px 0;
 }
 
 .advntage-text {
