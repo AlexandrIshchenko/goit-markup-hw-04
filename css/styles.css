@@ -475,6 +475,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 
 .footer {
@@ -484,9 +485,14 @@ ul {
 }
 
 .container-logo_footer {
+    display: flex;
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
+}
+
+.footer-logo_text {
+    margin-right: 120px;
 }
 
 .logo-footer {
@@ -494,8 +500,40 @@ ul {
     margin-bottom: 16px;
 }
 
-.footer-text {
-    width: 264px;
+.footer-media {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--accent);
+    margin-bottom: 16px;
+}
+
+.footer-social_list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-social_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.footer-social_link:hover {
+    background-color: var(--succsesc);
+}
+.footer-social_link:focus {
+    background-color: var(--succsesc);
+}
+
+.svg-footer {
+    width: 24x;
+    height: 24px;
 }
 
         /* Portfolio HTML */
