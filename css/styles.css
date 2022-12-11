@@ -451,7 +451,8 @@ ul {
     color: var(--subtle-text);
     border: 1px solid var(--subtle-text);
     border-radius: 4px;
-    
+    width: 168px;
+    height: 88px;
 }
 
 .customers-link:hover,
